@@ -51,6 +51,7 @@ https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/CHAP_Storage.html
 - 웹/모바일 앱에 대한 액세스 제어 및 인증을 제공하는 완전 관리형 솔루션
 - MFA, SAML 지원
 - social identity providers를 통한 로그인
+- 사용자 이름과 암호를 사용하여 직접 로그인하거나 신뢰할 수 있는 서드 파티를 통해 로그인할 수 있음
 - 미사용 데이터 및 전송 중 데이터 암호화
 ### AWS Directory Service
 - SAML 2.0, single sign-on, OpenID Connect
@@ -79,3 +80,5 @@ https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/CHAP_Storage.html
 - AWS Managed Microsoft AD : AWS Cloud에서 managed Active Directory를 사용할 있게 함
 - AD Connector : 온프레이스 사용자가 Active Directory를 통해 AWS 서비스를 사용할 수 있게 함
 - Simple AD : low-scale, low-cost basic Active Directory capability 제공
+- 동적 호스트 포트 매핑을 사용하면 컨테이너 인스턴스마다 동일 서비스의 여러 작업이 허용된다.
+- 경로 기반 라우팅을 사용하면 여러 서비스가 단일 Application Load Balancer(ALB)에서 동일한 리스너 포트를 사용할 수 있다.
