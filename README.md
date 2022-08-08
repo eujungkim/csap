@@ -18,6 +18,44 @@ https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/enhanced-networking.ht
 https://aws.amazon.com/shield/
 ### Amazon RDS 스토리지 유형
 https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/CHAP_Storage.html
+## Exam Readiness
+### Amazon EC2 Auto Scaling
+- Scalable resources
+- Manage cost
+### Amazon ElastiCache
+### Amazon SNS
+- Amazon SNS pushed to subscribers
+- Bulk notification
+- Mobile push capability
+### Amazon CloudFormation
+### Elastic Load Balancing
+- Two-way traffic
+- Immediate request handling
+### Amazon SQS
+- Client poll Amazon SQS
+- Persistent task storage
+- Controlled completion mechanism
+### Amazon Kinesis
+- Scalable event streaming
+- Clients read and track stream position
+### Amazon CloudWatch
+### AWS IAM
+- IAM users and groups
+### AWS STS
+- Policies and roles
+- AWS services interaction with the account
+### AWS Lambda
+- AWS service roles로 사용
+### Amazon Cognito
+- Identity providers
+- 웹/모바일 앱에 대한 액세스 제어 및 인증을 제공하는 완전 관리형 솔루션
+- MFA, SAML 지원
+- social identity providers를 통한 로그인
+- 미사용 데이터 및 전송 중 데이터 암호화
+### AWS Directory Service
+- SAML 2.0, single sign-on, OpenID Connect
+- User Pools, Identity Pools
+
 
 ## 설명
 - Lambda 함수는 15분 후에 제한 시간이 초과됩니다.
@@ -38,3 +76,6 @@ https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/CHAP_Storage.html
 - AWS Database Migration Service(AWS DMS)를 사용하여 데이터 마이그레이션
 - 대용량 파일의 S3 업로드 성능 향상 방안 : S3 Transfer Acceleration 활성화, 비디오 파일을 청크로 분할하여 멀티파트 업로드를 사용해 S3로 파일 전송
 - DB 인스턴스의 스토리지 유형을 프로비저닝된 IOPS SSD로 수정 : DB 인스턴스에서 처리할 수 있는 디스크 I/O의 양을 효과적으로 두 배로 향상
+- AWS Managed Microsoft AD : AWS Cloud에서 managed Active Directory를 사용할 있게 함
+- AD Connector : 온프레이스 사용자가 Active Directory를 통해 AWS 서비스를 사용할 수 있게 함
+- Simple AD : low-scale, low-cost basic Active Directory capability 제공
